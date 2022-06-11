@@ -33,8 +33,6 @@ local GameSupport = {
 }
 local GameID = game.PlaceId
 sazaFile = ".saza"
-SZExecutable = ""
-SZInjected = loadstring;
 for i, v in pairs(GameSupport) do
     if (GameID == tonumber(i) and v.name and v.working) then
         GameName = v.name
