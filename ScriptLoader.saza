@@ -38,7 +38,7 @@ for i, v in pairs(GameSupport) do
         local success = pcall(function() 
             SZExecutable = game:HttpGet(urlBody..GameName..sazaFile)
         end);
-    elseif (GameID == tonumber(i) and v.name and not v.working) then
+    elseif (v.name and not GameID == tonumber(i) or not v.working) then
         game.Players.LocalPlayer:Kick("\n| Security Saza |".."\n Script is maintenance\n or \nGame not supported\n\n[discord.gg/saza]\n Link discord has Coppied\n Paste it on ur Website")
         setclipboard(SZDiscord)
     end
