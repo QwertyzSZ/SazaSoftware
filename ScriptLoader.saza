@@ -30,9 +30,9 @@ IF DELETED THEN YOU DON'T APPRECIATE THE WORK
 repeat wait() until game:IsLoaded()
 local GameSupport = {
     [9551640993] = {name="MiningSimulator2", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
-    [2753915549] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=false},
-    [4442272183] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=false},
-    [7449423635] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=false}
+    [2753915549] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [4442272183] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [7449423635] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true}
 }
 for i, v in pairs(GameSupport) do
     if (GameID == tonumber(i) and v.name and v.working) then
