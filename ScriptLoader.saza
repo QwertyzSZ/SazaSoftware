@@ -32,7 +32,13 @@ local GameSupport = {
     [9551640993] = {name="MiningSimulator2", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
     [2753915549] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
     [4442272183] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
-    [7449423635] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true}
+    [7449423635] = {name="BloxFruit", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [6990131029] = {name="AnimeDimensionSimulator", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [6990129309] = {name="AnimeDimensionSimulator", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [6990133340] = {name="AnimeDimensionSimulator", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [7274690025] = {name="AnimeDimensionSimulator", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [7338881230] = {name="AnimeDimensionSimulator", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
+    [6938803436] = {name="AnimeDimensionSimulator", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
 }
 for i, v in pairs(GameSupport) do
     if (GameID == tonumber(i) and v.name and v.working) then
