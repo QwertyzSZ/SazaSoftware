@@ -41,10 +41,12 @@ local GameSupport = {
     [6938803436] = {name="AnimeDimensionSimulator", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
     [6284583030] = {name="PetSimulatorX", script="https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/DonateMe/", working=true},
 }
+local GameID = game.PlaceId
 for i, v in pairs(GameSupport) do
     if (GameID == tonumber(i) and v.name and v.working) then
         GameName = v.name
         urlBody = v.script
+        sazaFile = ".saza"
         local success = pcall(function() 
             SZExecutable = game:HttpGet(urlBody..GameName..sazaFile)
         end);
@@ -53,5 +55,5 @@ for i, v in pairs(GameSupport) do
         setclipboard(SZDiscord)
     end
 end
-SZInjected(SZExecutable)()
+loadstring(SZExecutable)()
 return GameSupport
